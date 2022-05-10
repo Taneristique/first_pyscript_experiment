@@ -1,0 +1,2 @@
+# About This Work 
+This is my first experiment with pyscript. There are two html pages with python code.One of them calculates factorielle wheras other finds nth fibonacci number and in both page you can write your own python code. Here is documentation of this new technology : https://github.com/pyscript/pyscript .
