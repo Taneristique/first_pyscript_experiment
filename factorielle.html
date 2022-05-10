@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <title>pyscript first experience</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Fibonacci</a>
+        <a href="factorielle.html">Factorielle</a>
+    </nav>
+
+
+<div class="test">
+    <span class="content">
+    <h1>This page shows a function calculates factorielle with  O(n) time complexity</h1>
+    
+        <py-script>
+number=int(input("Factorielle of which number would you want to calculate?"))
+def factorielle(n):
+    for i in range(1,n):
+        n*=i 
+    return n
+print(str(number)+"!="+str(factorielle(number)))
+        </py-script>
+        Write somethings
+        <py-repl></py-repl></span>
+
+ </div>
+</body>
+</html>
