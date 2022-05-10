@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    margin: auto;
+}
+.test{
+    display: grid;    
+    grid-template-columns: repeat(4,25vw);
+   
+}
+.content{
+    grid-column: 2/4;
+    background-color: white;
+    color: rgb(67, 49, 49);
+    overflow-x: auto;
+}
+
+
+nav{
+    display: block;
+    background-color: rgb(188, 197, 122);
+    text-align: center;
+
+}
+nav>a{
+    display: inline;
+}
+nav>a:hover{
+    color: rgb(0, 255, 221);
+}
